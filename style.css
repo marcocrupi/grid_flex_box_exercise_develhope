@@ -11,6 +11,7 @@
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 .container {
@@ -95,7 +96,7 @@ p span {
 /* media queries */
 
 @media screen and (max-width: 330px) {
-    .box {
-        width: 18rem;
-    }
+  .box {
+    width: 18rem;
+  }
 }
